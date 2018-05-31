@@ -18,7 +18,6 @@ class EventViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 		
-		self.setupUI()
 		self.checkIfUserLoggedIn()
 		fetchEvents()
 
@@ -31,7 +30,7 @@ class EventViewController: UITableViewController {
 	
 	override func viewWillAppear(_ animated: Bool) {
 		
-		
+		setupUI()
 	}
 
     // MARK: - Table view data source
@@ -63,18 +62,6 @@ class EventViewController: UITableViewController {
 		
 		let ref = Database.database().reference()
 		let eventDB = ref.child("events")
-		
-//		ref.child("events").observe(.value, with: { (snapshot) in
-//
-//			if let dictionary = snapshot.value as? [String: Any] {
-//				let event = Event()
-//				event.setValuesForKeys(dictionary)
-//				self.events.append(event)
-//				print(event.name)
-//
-//			}
-//			print(snapshot)
-//		}, withCancel: nil)
 		
 		eventDB.observe(.childAdded) { (snapshot) in
 			
@@ -140,7 +127,7 @@ extension EventViewController {
 	
 	func setupUI() {
 		
-		self.title = "DONOR DARAH"
+		navigationItem.title = "DONOR DARAH"
 		
 		let textAttributes = [NSAttributedStringKey.foregroundColor:UIColor.white]
 		navigationController?.navigationBar.largeTitleTextAttributes = textAttributes

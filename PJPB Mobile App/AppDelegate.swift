@@ -17,16 +17,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 		
-		// Setup window
-		let viewController = EventViewController()
-		let navigationController = UINavigationController(rootViewController: viewController)
-		
-		self.window = UIWindow(frame: UIScreen.main.bounds)
-		window?.rootViewController = navigationController
-		window?.makeKeyAndVisible()
-		
 		// Firebase setup
 		FirebaseApp.configure()
+		
+		// Setup window
+		self.window = UIWindow(frame: UIScreen.main.bounds)
+		if let window = self.window {
+			window.rootViewController = TabBarController()
+			window.makeKeyAndVisible()
+			
+		}
+		
 		
 		return true
 	}

@@ -13,16 +13,17 @@ class TabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        setupTabBar()
-    }
-	
-	func setupTabBar() {
+		let eventVC = EventViewController(nibName: "EventViewController", bundle: nil)
+		let newEventVC = NewEventViewController(nibName: "NewEventViewController", bundle: nil)
 		
-		let eventVC = EventViewController()
+		eventVC.tabBarItem = UITabBarItem(title: "Events",
+										  image: UIImage(named: "list"),
+										  tag: 1)
+		newEventVC.tabBarItem = UITabBarItem(title: "Add event",
+											 image: UIImage(named: "plus"),
+											 tag: 2)
 		
-		eventVC.tabBarItem = UITabBarItem(tabBarSystemItem: .contacts, tag: 1)
-		
-		let controller = [eventVC]
+		let controller = [eventVC, newEventVC]
 		
 		viewControllers = controller
 		viewControllers = controller.map { UINavigationController(rootViewController: $0) }
@@ -30,7 +31,8 @@ class TabBarController: UITabBarController {
 		let tabBarTintColor = UIColor(rgb: 0xB73D48)
 		
 		UITabBar.appearance().tintColor = tabBarTintColor
-	}
+    }
+	
 
 }
 

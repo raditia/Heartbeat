@@ -80,7 +80,7 @@ extension NewEventViewController {
 	
 	func setupUI() {
 		
-		self.title = "Add Blood Donors Event"
+		navigationItem.title = "Add Blood Donors Event"
 		self.addEventButton.layer.cornerRadius = 10.0
 		navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Cancel", style: .plain, target: self, action: #selector(cancelNewEvent))
 		navigationController?.navigationBar.barTintColor = UIColor(rgb: 0xB73D48)
