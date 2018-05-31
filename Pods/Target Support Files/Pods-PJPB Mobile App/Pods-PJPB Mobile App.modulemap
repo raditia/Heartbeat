@@ -1,0 +1,6 @@
+framework module Pods_PJPB_Mobile_App {
+  umbrella header "Pods-PJPB Mobile App-umbrella.h"
+
+  export *
+  module * { export * }
+}

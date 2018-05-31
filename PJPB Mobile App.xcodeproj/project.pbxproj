@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BA19CC669AB91846101C4DE /* Pods_PJPB_Mobile_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 205956D7DE6FF3DE99D2D72E /* Pods_PJPB_Mobile_App.framework */; };
+		38EE9FBD20B854F0005DA6A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EE9FBC20B854F0005DA6A7 /* AppDelegate.swift */; };
+		38EE9FBF20B854F0005DA6A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EE9FBE20B854F0005DA6A7 /* ViewController.swift */; };
+		38EE9FC420B854F7005DA6A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38EE9FC320B854F7005DA6A7 /* Assets.xcassets */; };
+		38EE9FC720B854F7005DA6A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38EE9FC520B854F7005DA6A7 /* LaunchScreen.storyboard */; };
+		38EE9FD220B854F7005DA6A7 /* PJPB_Mobile_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EE9FD120B854F7005DA6A7 /* PJPB_Mobile_AppTests.swift */; };
+		38EE9FDE20B8556C005DA6A7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38EE9FDD20B8556B005DA6A7 /* GoogleService-Info.plist */; };
+		38EE9FE420B858C1005DA6A7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EE9FE220B858C1005DA6A7 /* RegisterViewController.swift */; };
+		38EE9FE520B858C1005DA6A7 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38EE9FE320B858C1005DA6A7 /* RegisterViewController.xib */; };
+		38EE9FE820B862A0005DA6A7 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EE9FE720B862A0005DA6A7 /* Helper.swift */; };
+		38EE9FEB20B87581005DA6A7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EE9FE920B87581005DA6A7 /* LoginViewController.swift */; };
+		38EE9FEC20B87581005DA6A7 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38EE9FEA20B87581005DA6A7 /* LoginViewController.xib */; };
+		38EE9FF020B88940005DA6A7 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EE9FEE20B88940005DA6A7 /* EventViewController.swift */; };
+		38EE9FF120B88940005DA6A7 /* EventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38EE9FEF20B88940005DA6A7 /* EventViewController.xib */; };
+		38EE9FF620B8B4C7005DA6A7 /* NewEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EE9FF420B8B4C7005DA6A7 /* NewEventViewController.swift */; };
+		38EE9FF720B8B4C7005DA6A7 /* NewEventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38EE9FF520B8B4C7005DA6A7 /* NewEventViewController.xib */; };
+		38EE9FFA20B8B9F5005DA6A7 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EE9FF920B8B9F5005DA6A7 /* UIColor.swift */; };
+		38EE9FFD20B8C236005DA6A7 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EE9FFC20B8C236005DA6A7 /* TabBarController.swift */; };
+		38EE9FFF20B8C9B2005DA6A7 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EE9FFE20B8C9B2005DA6A7 /* Event.swift */; };
+		CD632ACC1E482CA88AF38F62 /* Pods_PJPB_Mobile_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BC56E2B380ED53A8FE461F /* Pods_PJPB_Mobile_AppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38EE9FCE20B854F7005DA6A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38EE9FB120B854F0005DA6A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38EE9FB820B854F0005DA6A7;
+			remoteInfo = "PJPB Mobile App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		205956D7DE6FF3DE99D2D72E /* Pods_PJPB_Mobile_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PJPB_Mobile_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EE9FB920B854F0005DA6A7 /* PJPB Mobile App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PJPB Mobile App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EE9FBC20B854F0005DA6A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38EE9FBE20B854F0005DA6A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38EE9FC320B854F7005DA6A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38EE9FC620B854F7005DA6A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38EE9FC820B854F7005DA6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38EE9FCD20B854F7005DA6A7 /* PJPB Mobile AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PJPB Mobile AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EE9FD120B854F7005DA6A7 /* PJPB_Mobile_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PJPB_Mobile_AppTests.swift; sourceTree = "<group>"; };
+		38EE9FD320B854F7005DA6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38EE9FDD20B8556B005DA6A7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		38EE9FE220B858C1005DA6A7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		38EE9FE320B858C1005DA6A7 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		38EE9FE720B862A0005DA6A7 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		38EE9FE920B87581005DA6A7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		38EE9FEA20B87581005DA6A7 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		38EE9FEE20B88940005DA6A7 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		38EE9FEF20B88940005DA6A7 /* EventViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventViewController.xib; sourceTree = "<group>"; };
+		38EE9FF420B8B4C7005DA6A7 /* NewEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEventViewController.swift; sourceTree = "<group>"; };
+		38EE9FF520B8B4C7005DA6A7 /* NewEventViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewEventViewController.xib; sourceTree = "<group>"; };
+		38EE9FF920B8B9F5005DA6A7 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		38EE9FFC20B8C236005DA6A7 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		38EE9FFE20B8C9B2005DA6A7 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		576970E957646C095B220E73 /* Pods-PJPB Mobile AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PJPB Mobile AppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PJPB Mobile AppTests/Pods-PJPB Mobile AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3BC56E2B380ED53A8FE461F /* Pods_PJPB_Mobile_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PJPB_Mobile_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B730699185F83456E9A7C15F /* Pods-PJPB Mobile AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PJPB Mobile AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PJPB Mobile AppTests/Pods-PJPB Mobile AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		E6285A88410D93DFECF6AA31 /* Pods-PJPB Mobile App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PJPB Mobile App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PJPB Mobile App/Pods-PJPB Mobile App.debug.xcconfig"; sourceTree = "<group>"; };
+		EEA35B58DEA28850BB209D4C /* Pods-PJPB Mobile App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PJPB Mobile App.release.xcconfig"; path = "Pods/Target Support Files/Pods-PJPB Mobile App/Pods-PJPB Mobile App.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38EE9FB620B854F0005DA6A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA19CC669AB91846101C4DE /* Pods_PJPB_Mobile_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38EE9FCA20B854F7005DA6A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD632ACC1E482CA88AF38F62 /* Pods_PJPB_Mobile_AppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38EE9FB020B854F0005DA6A7 = {
+			isa = PBXGroup;
+			children = (
+				38EE9FBB20B854F0005DA6A7 /* PJPB Mobile App */,
+				38EE9FD020B854F7005DA6A7 /* PJPB Mobile AppTests */,
+				38EE9FBA20B854F0005DA6A7 /* Products */,
+				61035EAC20C5C98F03035362 /* Pods */,
+				99997365883702175BEA5F67 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		38EE9FBA20B854F0005DA6A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38EE9FB920B854F0005DA6A7 /* PJPB Mobile App.app */,
+				38EE9FCD20B854F7005DA6A7 /* PJPB Mobile AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38EE9FBB20B854F0005DA6A7 /* PJPB Mobile App */ = {
+			isa = PBXGroup;
+			children = (
+				38EE9FF220B89B57005DA6A7 /* Models */,
+				38EE9FDC20B8551B005DA6A7 /* Controllers */,
+				38EE9FFB20B8C213005DA6A7 /* Views */,
+				38EE9FF820B8B9CE005DA6A7 /* Extensions */,
+				38EE9FE620B86294005DA6A7 /* Utils */,
+				38EE9FDF20B85679005DA6A7 /* Support Files */,
+				38EE9FBC20B854F0005DA6A7 /* AppDelegate.swift */,
+				38EE9FC820B854F7005DA6A7 /* Info.plist */,
+				38EE9FDD20B8556B005DA6A7 /* GoogleService-Info.plist */,
+			);
+			path = "PJPB Mobile App";
+			sourceTree = "<group>";
+		};
+		38EE9FD020B854F7005DA6A7 /* PJPB Mobile AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				38EE9FD120B854F7005DA6A7 /* PJPB_Mobile_AppTests.swift */,
+				38EE9FD320B854F7005DA6A7 /* Info.plist */,
+			);
+			path = "PJPB Mobile AppTests";
+			sourceTree = "<group>";
+		};
+		38EE9FDC20B8551B005DA6A7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				38EE9FED20B8890E005DA6A7 /* Event */,
+				38EE9FE120B858AA005DA6A7 /* Register */,
+				38EE9FE020B858A5005DA6A7 /* Login */,
+				38EE9FBE20B854F0005DA6A7 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		38EE9FDF20B85679005DA6A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38EE9FC320B854F7005DA6A7 /* Assets.xcassets */,
+				38EE9FC520B854F7005DA6A7 /* LaunchScreen.storyboard */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		38EE9FE020B858A5005DA6A7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				38EE9FE920B87581005DA6A7 /* LoginViewController.swift */,
+				38EE9FEA20B87581005DA6A7 /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		38EE9FE120B858AA005DA6A7 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				38EE9FE220B858C1005DA6A7 /* RegisterViewController.swift */,
+				38EE9FE320B858C1005DA6A7 /* RegisterViewController.xib */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		38EE9FE620B86294005DA6A7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				38EE9FE720B862A0005DA6A7 /* Helper.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		38EE9FED20B8890E005DA6A7 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				38EE9FEE20B88940005DA6A7 /* EventViewController.swift */,
+				38EE9FEF20B88940005DA6A7 /* EventViewController.xib */,
+				38EE9FF420B8B4C7005DA6A7 /* NewEventViewController.swift */,
+				38EE9FF520B8B4C7005DA6A7 /* NewEventViewController.xib */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		38EE9FF220B89B57005DA6A7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				38EE9FFE20B8C9B2005DA6A7 /* Event.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		38EE9FF820B8B9CE005DA6A7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				38EE9FF920B8B9F5005DA6A7 /* UIColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		38EE9FFB20B8C213005DA6A7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				38EE9FFC20B8C236005DA6A7 /* TabBarController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		61035EAC20C5C98F03035362 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6285A88410D93DFECF6AA31 /* Pods-PJPB Mobile App.debug.xcconfig */,
+				EEA35B58DEA28850BB209D4C /* Pods-PJPB Mobile App.release.xcconfig */,
+				576970E957646C095B220E73 /* Pods-PJPB Mobile AppTests.debug.xcconfig */,
+				B730699185F83456E9A7C15F /* Pods-PJPB Mobile AppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		99997365883702175BEA5F67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				205956D7DE6FF3DE99D2D72E /* Pods_PJPB_Mobile_App.framework */,
+				B3BC56E2B380ED53A8FE461F /* Pods_PJPB_Mobile_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38EE9FB820B854F0005DA6A7 /* PJPB Mobile App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38EE9FD620B854F7005DA6A7 /* Build configuration list for PBXNativeTarget "PJPB Mobile App" */;
+			buildPhases = (
+				351CC22801A79A78A002EFE4 /* [CP] Check Pods Manifest.lock */,
+				38EE9FB520B854F0005DA6A7 /* Sources */,
+				38EE9FB620B854F0005DA6A7 /* Frameworks */,
+				38EE9FB720B854F0005DA6A7 /* Resources */,
+				28D68E26A56D748508861000 /* [CP] Embed Pods Frameworks */,
+				678F2FA66C50C9B2D1B17580 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PJPB Mobile App";
+			productName = "PJPB Mobile App";
+			productReference = 38EE9FB920B854F0005DA6A7 /* PJPB Mobile App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38EE9FCC20B854F7005DA6A7 /* PJPB Mobile AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38EE9FD920B854F7005DA6A7 /* Build configuration list for PBXNativeTarget "PJPB Mobile AppTests" */;
+			buildPhases = (
+				19CE6868D78F14652560D9A1 /* [CP] Check Pods Manifest.lock */,
+				38EE9FC920B854F7005DA6A7 /* Sources */,
+				38EE9FCA20B854F7005DA6A7 /* Frameworks */,
+				38EE9FCB20B854F7005DA6A7 /* Resources */,
+				56D0E7A0ADEBBAA7C0137BBD /* [CP] Embed Pods Frameworks */,
+				0BE89DF691ED673077C7E481 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38EE9FCF20B854F7005DA6A7 /* PBXTargetDependency */,
+			);
+			name = "PJPB Mobile AppTests";
+			productName = "PJPB Mobile AppTests";
+			productReference = 38EE9FCD20B854F7005DA6A7 /* PJPB Mobile AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38EE9FB120B854F0005DA6A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Universitas Gadjah Mada";
+				TargetAttributes = {
+					38EE9FB820B854F0005DA6A7 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					38EE9FCC20B854F7005DA6A7 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 38EE9FB820B854F0005DA6A7;
+					};
+				};
+			};
+			buildConfigurationList = 38EE9FB420B854F0005DA6A7 /* Build configuration list for PBXProject "PJPB Mobile App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38EE9FB020B854F0005DA6A7;
+			productRefGroup = 38EE9FBA20B854F0005DA6A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38EE9FB820B854F0005DA6A7 /* PJPB Mobile App */,
+				38EE9FCC20B854F7005DA6A7 /* PJPB Mobile AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38EE9FB720B854F0005DA6A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EE9FEC20B87581005DA6A7 /* LoginViewController.xib in Resources */,
+				38EE9FF120B88940005DA6A7 /* EventViewController.xib in Resources */,
+				38EE9FC720B854F7005DA6A7 /* LaunchScreen.storyboard in Resources */,
+				38EE9FC420B854F7005DA6A7 /* Assets.xcassets in Resources */,
+				38EE9FDE20B8556C005DA6A7 /* GoogleService-Info.plist in Resources */,
+				38EE9FF720B8B4C7005DA6A7 /* NewEventViewController.xib in Resources */,
+				38EE9FE520B858C1005DA6A7 /* RegisterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38EE9FCB20B854F7005DA6A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BE89DF691ED673077C7E481 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PJPB Mobile AppTests/Pods-PJPB Mobile AppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19CE6868D78F14652560D9A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PJPB Mobile AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28D68E26A56D748508861000 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PJPB Mobile App/Pods-PJPB Mobile App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PJPB Mobile App/Pods-PJPB Mobile App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		351CC22801A79A78A002EFE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PJPB Mobile App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56D0E7A0ADEBBAA7C0137BBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PJPB Mobile AppTests/Pods-PJPB Mobile AppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		678F2FA66C50C9B2D1B17580 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PJPB Mobile App/Pods-PJPB Mobile App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38EE9FB520B854F0005DA6A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EE9FE420B858C1005DA6A7 /* RegisterViewController.swift in Sources */,
+				38EE9FBF20B854F0005DA6A7 /* ViewController.swift in Sources */,
+				38EE9FBD20B854F0005DA6A7 /* AppDelegate.swift in Sources */,
+				38EE9FFD20B8C236005DA6A7 /* TabBarController.swift in Sources */,
+				38EE9FFF20B8C9B2005DA6A7 /* Event.swift in Sources */,
+				38EE9FEB20B87581005DA6A7 /* LoginViewController.swift in Sources */,
+				38EE9FF620B8B4C7005DA6A7 /* NewEventViewController.swift in Sources */,
+				38EE9FFA20B8B9F5005DA6A7 /* UIColor.swift in Sources */,
+				38EE9FE820B862A0005DA6A7 /* Helper.swift in Sources */,
+				38EE9FF020B88940005DA6A7 /* EventViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38EE9FC920B854F7005DA6A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EE9FD220B854F7005DA6A7 /* PJPB_Mobile_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38EE9FCF20B854F7005DA6A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38EE9FB820B854F0005DA6A7 /* PJPB Mobile App */;
+			targetProxy = 38EE9FCE20B854F7005DA6A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38EE9FC520B854F7005DA6A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38EE9FC620B854F7005DA6A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38EE9FD420B854F7005DA6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38EE9FD520B854F7005DA6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38EE9FD720B854F7005DA6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6285A88410D93DFECF6AA31 /* Pods-PJPB Mobile App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VYX2VDH895;
+				INFOPLIST_FILE = "PJPB Mobile App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ac.id.ugm.PJPB-Mobile-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38EE9FD820B854F7005DA6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEA35B58DEA28850BB209D4C /* Pods-PJPB Mobile App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VYX2VDH895;
+				INFOPLIST_FILE = "PJPB Mobile App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ac.id.ugm.PJPB-Mobile-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		38EE9FDA20B854F7005DA6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 576970E957646C095B220E73 /* Pods-PJPB Mobile AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VYX2VDH895;
+				INFOPLIST_FILE = "PJPB Mobile AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ac.id.ugm.PJPB-Mobile-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PJPB Mobile App.app/PJPB Mobile App";
+			};
+			name = Debug;
+		};
+		38EE9FDB20B854F7005DA6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B730699185F83456E9A7C15F /* Pods-PJPB Mobile AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VYX2VDH895;
+				INFOPLIST_FILE = "PJPB Mobile AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ac.id.ugm.PJPB-Mobile-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PJPB Mobile App.app/PJPB Mobile App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38EE9FB420B854F0005DA6A7 /* Build configuration list for PBXProject "PJPB Mobile App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EE9FD420B854F7005DA6A7 /* Debug */,
+				38EE9FD520B854F7005DA6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38EE9FD620B854F7005DA6A7 /* Build configuration list for PBXNativeTarget "PJPB Mobile App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EE9FD720B854F7005DA6A7 /* Debug */,
+				38EE9FD820B854F7005DA6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38EE9FD920B854F7005DA6A7 /* Build configuration list for PBXNativeTarget "PJPB Mobile AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EE9FDA20B854F7005DA6A7 /* Debug */,
+				38EE9FDB20B854F7005DA6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38EE9FB120B854F0005DA6A7 /* Project object */;
+}
